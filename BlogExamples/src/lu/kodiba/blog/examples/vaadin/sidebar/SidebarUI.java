@@ -23,7 +23,7 @@ import com.vaadin.ui.VerticalLayout;
 public class SidebarUI extends UI {
 
 	/**
-	 * 
+	 *
 	 */
 	private static final long serialVersionUID = 9127499650116220717L;
 
@@ -56,6 +56,8 @@ public class SidebarUI extends UI {
 
 		sideBar.setLogo(new Label(FontAwesome.FLASH.getHtml(), ContentMode.HTML));
 		sideBar.setLargeIcons(true);
+
+		navigator.navigateTo(ViewItem1.ID);
 
 		// sideBar.setHeader(header);
 	}
