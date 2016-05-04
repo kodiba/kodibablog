@@ -40,6 +40,9 @@ dependencies {
     compile 'junit:junit:4.10'
     compile 'org.slf4j:slf4j-api:1.7.21'
     compile 'org.slf4j:slf4j-simple:1.7.21'
+    compile 'com.vaadin:vaadin-spring-boot-starter:1.0.0'
+    compile 'org.vaadin.spring.addons:vaadin-spring-addon-sidebar:0.0.7.RELEASE'
+    compile 'org.springframework.boot:spring-boot-starter-web:1.3.3.RELEASE'
 }
 
 task wrapper(type: Wrapper) {
