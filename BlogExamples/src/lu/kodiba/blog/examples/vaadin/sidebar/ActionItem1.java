@@ -9,7 +9,7 @@ import org.vaadin.spring.sidebar.annotation.SideBarItem;
 import com.vaadin.server.FontAwesome;
 import com.vaadin.ui.Notification;
 
-@SideBarItem(sectionId = Sections.SECTION2, caption = "Action1", order = 2)
+@SideBarItem(sectionId = Sections.SECTION1, caption = "Item1")
 @FontAwesomeIcon(FontAwesome.ANDROID)
 @Component
 public class ActionItem1 implements Runnable, Serializable {
@@ -18,7 +18,7 @@ public class ActionItem1 implements Runnable, Serializable {
 
 	@Override
 	public void run() {
-		Notification.show("Action1 triggered!");
+		Notification.show("Item1 triggered!");
 	}
 
 }
