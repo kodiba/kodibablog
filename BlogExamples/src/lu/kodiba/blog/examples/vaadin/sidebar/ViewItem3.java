@@ -12,15 +12,15 @@ import com.vaadin.ui.Label;
 import com.vaadin.ui.VerticalLayout;
 
 @SpringView(name = ViewItem3.ID)
-@SideBarItem(sectionId = Sections.SECTION2, caption = "View4", order = 1)
+@SideBarItem(sectionId = Sections.SECTION2, caption = "View3", order = 1)
 @FontAwesomeIcon(FontAwesome.FLASK)
 @ViewScope
 public class ViewItem3 extends VerticalLayout implements View {
-	public static final String ID = "viewitem4";
+	public static final String ID = "viewitem3";
 	private static final long serialVersionUID = 2217814051618370412L;
 
 	public ViewItem3() {
-		addComponent(new Label("This is item 4!"));
+		addComponent(new Label("This is item 3!"));
 	}
 
 	@Override
