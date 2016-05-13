@@ -11,16 +11,16 @@ import com.vaadin.spring.annotation.ViewScope;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.VerticalLayout;
 
-@SpringView(name = ViewItem1.ID)
-@SideBarItem(sectionId = Sections.SECTION1, caption = "View1", order = 1)
-@FontAwesomeIcon(FontAwesome.AUTOMOBILE)
+@SpringView(name = ViewItem3.ID)
+@SideBarItem(sectionId = Sections.SECTION2, caption = "View3", order = 1)
+@FontAwesomeIcon(FontAwesome.FLASK)
 @ViewScope
-public class ViewItem1 extends VerticalLayout implements View {
-	public static final String ID = "viewitem1";
+public class ViewItem3 extends VerticalLayout implements View {
+	public static final String ID = "viewitem3";
 	private static final long serialVersionUID = 2217814051618370412L;
 
-	public ViewItem1() {
-		addComponent(new Label("This is item 1!"));
+	public ViewItem3() {
+		addComponent(new Label("This is item 3!"));
 	}
 
 	@Override
