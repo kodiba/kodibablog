@@ -5,11 +5,11 @@ import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.Label;
 import com.vaadin.ui.UI;
 
-@SpringUI
+@SpringUI(path = "someother")
 public class SomeUI extends UI {
 
 	@Override
 	protected void init(VaadinRequest vaadinRequest) {
-		setContent(new Label("Hello world!"));
+		setContent(new Label("I am some other UI!"));
 	}
 }
